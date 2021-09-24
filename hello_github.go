@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.println("Hello GitHub")
+	fmt.println("Hello GitHub!")
 }
