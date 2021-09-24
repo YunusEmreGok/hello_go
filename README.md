@@ -1,2 +1,2 @@
-# hello_go
+# Go Training
 Projects I will develop with Golang.
