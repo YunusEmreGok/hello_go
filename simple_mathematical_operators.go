@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-var first int
-var second int
+var first float64
+var second float64
 
 func main() {
 	fmt.Print("Enter First Number.")
@@ -11,5 +11,9 @@ func main() {
 	fmt.Print("Enter Second Number. ")
 	fmt.Scan(&second)
 
-	fmt.Print("Conclusion : ", second+first)
+	fmt.Print("Conclusion : ", second+first, "\n")
+
+	fmt.Print("Multiply  : ", second*first, "\n")
+
+	fmt.Print("Divide  : ", second/first, "\n")
 }
